@@ -1,0 +1,112 @@
+[
+  {
+    "postNumber": 1,
+    "scheduledDate": "2026-09-18",
+    "keyword": "foundation repair olympia",
+    "pattern": "{service} {town}",
+    "intent": "primary commercial",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 2,
+    "scheduledDate": "2026-09-21",
+    "keyword": "foundation repair cost olympia",
+    "pattern": "{service} cost {town}",
+    "intent": "commercial research",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 3,
+    "scheduledDate": "2026-09-25",
+    "keyword": "emergency foundation repair near me",
+    "pattern": "emergency {service} near me",
+    "intent": "urgent commercial",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 4,
+    "scheduledDate": "2026-09-28",
+    "keyword": "how to know when to replace foundation repair",
+    "pattern": "how to {problem}",
+    "intent": "informational",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 5,
+    "scheduledDate": "2026-10-02",
+    "keyword": "winter storm foundation repair olympia",
+    "pattern": "{seasonal} {service}",
+    "intent": "seasonal",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 6,
+    "scheduledDate": "2026-10-05",
+    "keyword": "helical & push piering olympia",
+    "pattern": "{subservice} {town}",
+    "intent": "sub-niche commercial",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 7,
+    "scheduledDate": "2026-10-09",
+    "keyword": "helical & push piering cost olympia",
+    "pattern": "{subservice} cost {town}",
+    "intent": "commercial research",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 8,
+    "scheduledDate": "2026-10-12",
+    "keyword": "foundation repair vs helical & push piering",
+    "pattern": "{service} vs {subservice}",
+    "intent": "comparison",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 9,
+    "scheduledDate": "2026-10-16",
+    "keyword": "crawl space encapsulation olympia",
+    "pattern": "{subservice} {town}",
+    "intent": "sub-niche commercial",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  },
+  {
+    "postNumber": 10,
+    "scheduledDate": "2026-10-19",
+    "keyword": "crawl space encapsulation cost olympia",
+    "pattern": "{subservice} cost {town}",
+    "intent": "commercial research",
+    "searchVolume": null,
+    "cpc": null,
+    "geo": "Olympia",
+    "status": "UNVALIDATED"
+  }
+]
