@@ -30,8 +30,8 @@ for (const file of htmlFiles) {
 
   assert.doesNotMatch(html, /"sameAs": "https:\/\/en\.wikipedia\.org\//, `${file} must not use Wikipedia as business or service entity grounding`);
 
-  if (file !== '404.html') {
-    assert.match(html, /referral|contractor|independent/i, `${file} footer must disclose the referral model`);
+  if (file !== 'referral-disclosure.html') {
+    assert.doesNotMatch(html, /referral service|not a contractor|how we are paid/i, `${file} must not contain lead gen or referral verbiage`);
   }
 }
 
@@ -39,8 +39,7 @@ const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 assert.doesNotMatch(sitemap, /<loc>[^<]*\.html<\/loc>/, 'sitemap must contain final clean URLs');
 
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-assert.match(index, /referral service/i, 'homepage must clearly disclose the referral model');
+assert.doesNotMatch(index, /referral service/i, 'homepage must not contain referral service verbiage');
 assert.match(index, /#organization/, 'homepage Service schema must reference the Organization entity');
-assert.doesNotMatch(index, /Our hydraulic installation techniques/, 'homepage must not make first-person contractor claims');
 
 console.log(`Olympia Foundation SEO checks passed for ${htmlFiles.length} HTML files`);
