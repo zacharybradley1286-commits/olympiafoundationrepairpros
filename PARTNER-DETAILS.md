@@ -8,8 +8,8 @@ This file is not linked from the site. `_redirects` sends `/PARTNER-DETAILS.md` 
 
 | # | What is needed | Pages |
 |---|---|---|
-| 1 | WA contractor registration # (RCW 18.27.100 requires it in advertising). Render as: "WA contractor registration: XXXXXXXXXXXX" | every page (footer) |
-| 2 | business hours | every page (footer) |
+| 1 | WA contractor registration # (RCW 18.27.100 requires it in advertising). Render as: "WA contractor registration: XXXXXXXXXXXX" | every page (footer); also inline on /, /about, /contact, /faq |
+| 2 | business hours | every page (footer); also inline on /contact |
 | 3 | owner name, year founded, team, and a real photo of the owner or crew | /about |
 | 4 | confirm each process claim above | /about |
 | 5 | WA contractor registration # and UBI; show them here once provided | /about |
@@ -21,6 +21,23 @@ This file is not linked from the site. `_redirects` sends `/PARTNER-DETAILS.md` 
 | 11 | confirm outer service limits (Yelm, Rainier, Tenino, Shelton?) and list them here | /service-area |
 | 12 | confirm whether you offer crack injection, carbon fiber wall straps, wall braces and seismic retrofits; add them here if so | /services |
 
+## Pre-launch checklist: license, bond and insurance
+
+The site says the business is "licensed, bonded & insured" (or "licensed, bonded, and insured" in sentences) in these spots, and each one sits right next to a `PARTNER: WA contractor registration #` comment:
+
+- Footer on every page: "Licensed, bonded & insured in Washington State."
+- Home page hero checklist: "Licensed, bonded & insured in Washington"
+- About, "How we work": "Licensed, bonded and insured. We are licensed, bonded, and insured in Washington, and you can check our registration, bond and insurance on L&I's Verify a Contractor page."
+- Contact, sidebar: "We are licensed, bonded, and insured in Washington."
+- FAQ, "Are you licensed and insured?": "Yes. We are licensed, bonded, and insured in Washington. You can check our registration, bond and insurance status on the L&I Verify a Contractor page."
+
+Before launch:
+
+- [ ] Look the partner up on WA L&I "Verify a Contractor" (https://secure.lni.wa.gov/verify/) and confirm the contractor registration, the bond and the liability insurance are all **active**. If any of them is missing or lapsed, remove the "licensed, bonded & insured" wording everywhere above until it is fixed.
+- [ ] Put the real WA contractor registration number everywhere the `PARTNER: WA contractor registration #` comment appears (footer on every page, plus Home, About, Contact and FAQ). RCW 18.27.100 requires the registration number in advertising.
+- [ ] Do not add a bond amount, insurer name or policy limits unless the partner supplies them.
+- [ ] Recheck the L&I listing periodically after launch; bonds and insurance can lapse.
+
 ## Other facts to confirm or supply
 
 These are not marked in the HTML but should be checked before launch.
@@ -31,7 +48,7 @@ These are not marked in the HTML but should be checked before launch.
 4. **Year founded, owner and team names, real photos.** About page slot. No stock photos presented as the crew.
 5. **Real project photos.** Home page slot. The old stock images (hero.jpg, img-1.jpg, img-2.jpg) were removed because they would read as our own jobs.
 6. **Warranty terms per service.** Slots on FAQ, Home and each service page. The site now says only "terms depend on the repair; written into your estimate". Do not add "lifetime" or "transferable" unless the written warranty says so.
-7. **Insurance and bond.** Not stated anywhere. Add if the business wants it shown (L&I lists it publicly anyway).
+7. **Insurance and bond.** The site states "licensed, bonded & insured" in general terms only (see the checklist above). No bond amount, insurer or policy limits are given.
 8. **Reviews.** None shown and no `aggregateRating` in the schema. Add only real reviews with a real source.
 9. **Financing.** FAQ slot. Say nothing about financing unless there is a real offer.
 10. **Real-estate turnaround.** The buying/selling guide promises only to say right away whether a deadline can be met.
